@@ -25,7 +25,7 @@
         }
     },
     "variables": {
-        "baseUri":"https://raw.githubusercontent.com/ttschapp/master/introduction-to-nested-templates/master",
+        "baseUri":"https://raw.githubusercontent.com/ttschapp/introduction-to-nested-templates/master",
         "ADInstallScript":"[concat(variables('baseUri'),'/','script-extensions/deploy-ad.ps1')]",
         "ADJoinScript":"[concat(variables('baseUri'),'/','script-extensions/domain-join.ps1')]"
     },
